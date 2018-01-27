@@ -84,7 +84,7 @@
             </goals>
             <configuration>
               <targetDirectory>${project.build.directory}/generated/js/teavm</targetDirectory>
-              <mainClass>com.naroyo.Client</mainClass>
+              <mainClass>com.naroyo.Application</mainClass>
               <minifying>true</minifying>
               <debugInformationGenerated>true</debugInformationGenerated>
               <sourceMapsGenerated>true</sourceMapsGenerated>
