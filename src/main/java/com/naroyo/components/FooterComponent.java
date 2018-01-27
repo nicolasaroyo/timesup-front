@@ -21,4 +21,8 @@ public class FooterComponent extends AbstractWidget {
 	public String getHelene() {
 		return Libelles.getLibelles().getHeleneName();
 	}
+
+	public String getWordAnd() {
+		return Libelles.getLibelles().getWordAnd();
+	}
 }

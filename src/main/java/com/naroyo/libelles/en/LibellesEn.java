@@ -8,6 +8,7 @@ public class LibellesEn implements Libelles {
 	private static final String BUTTON_PLAY_TEXT = "Play";
 	private static final String NICOLAS_NAME = "Petit bouchon";
 	private static final String HELENE_NAME = "Une fille pas comme les autres";
+	private static final String AND = "and";
 
 	@Override
 	public String getApplicationName() {
@@ -27,5 +28,10 @@ public class LibellesEn implements Libelles {
 	@Override
 	public String getHeleneName() {
 		return HELENE_NAME;
+	}
+
+	@Override
+	public String getWordAnd() {
+		return AND;
 	}
 }

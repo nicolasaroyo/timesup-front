@@ -11,6 +11,8 @@ public interface Libelles {
 
 	public String getHeleneName();
 
+	public String getWordAnd();
+
 	/**
 	 * Définition de la langue à utiliser.
 	 * 
@@ -20,5 +22,4 @@ public interface Libelles {
 	public static Libelles getLibelles() {
 		return new LibellesFr();
 	}
-
 }
